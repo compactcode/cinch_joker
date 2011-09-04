@@ -1,2 +1,2 @@
 require "cinch_joker/version"
-require "cinch_joker/joker"
+require "cinch/plugins/joker"

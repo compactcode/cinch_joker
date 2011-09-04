@@ -7,9 +7,8 @@ Gem::Specification.new do |s|
   s.version     = CinchJoker::VERSION
   s.authors     = ["Shanon McQuay"]
   s.email       = ["shanonmcquay@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{Makes cinch funny.}
-  s.description = %q{Makes cinch funny.}
+  s.homepage    = "https://github.com/compactcode/cinch_joker"
+  s.summary     = %q{Makes your IRC cinch bot a whole lot funnier.}
 
   s.rubyforge_project = "cinch_joker"
 
@@ -18,5 +17,6 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency("cinch", "~> 1.0")
+  s.add_dependency("cinch")
+  s.add_development_dependency("rspec")
 end
