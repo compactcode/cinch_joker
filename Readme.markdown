@@ -11,4 +11,7 @@ bot = Cinch::Bot.new do
 end
 ```
 
-Then type !joke in the channel.
+```
+compactcode: !joke
+bot: He who smiles in a crisis has found someone to blame.
+```
