@@ -1,4 +1,10 @@
-Add the joker to your cinch bot as a plugin:
+Grab the gem.
+
+```
+gem 'cinch_hangman'
+```
+
+And add the joker to your cinch bot as a plugin:
 
 ```ruby
 bot = Cinch::Bot.new do
