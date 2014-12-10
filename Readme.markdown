@@ -1,7 +1,7 @@
 Grab the gem.
 
 ```
-gem 'cinch_hangman'
+gem 'cinch_joker'
 ```
 
 And add the joker to your cinch bot as a plugin:
